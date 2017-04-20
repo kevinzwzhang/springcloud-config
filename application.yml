@@ -3,10 +3,12 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
+---
 spring:
-  profiles: subject
+profiles: subject
 words: I,You,He,She,It
-  
+
+---
 spring:
-  profiles: verb
-words: ran,knew,had,saw,bought 
+profiles: verb
+words: ran,knew,had,saw,bought
